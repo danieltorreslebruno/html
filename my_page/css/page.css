@@ -1,0 +1,420 @@
+
+
+
+
+
+div {
+/*border: 1px solid #fff;*/
+}
+
+/*#fondo{
+
+border-style:solid;
+position: relative;
+z-index:1;
+left:8em;
+top:46em; 
+width: 1039.5px; height: 752.29px;
+
+
+}
+*/
+img#portfolio {
+/*
+
+margin: 0 auto 0 auto; 
+width: 294px; height: 183px;
+
+*/
+}
+
+#lienzo{
+background-image: url("../images/fondo_gimp.jpg");
+/*!!!!margin-top: 0px;*/
+width: 1053px; height: 761.28px;
+}
+
+
+
+
+#presentacion{
+  position: absolute;
+}
+#presentacion img{
+  position: absolute;
+}
+
+#about_me_intro{
+position: relative;
+left: 5em;
+top: -11.4em;
+width: 210.68px; height: 36.66px;
+z-index: 8;
+}
+#my_portfolio_intro{
+position: relative;
+left: 19.7em;
+top: -11.4em;
+width: 210.68px; height: 36.66px;
+z-index: 8;
+}
+#contact_me_intro{
+position: relative;
+left: 34em;
+top: -11.4em;
+width: 210.68px; height: 36.66px;
+z-index: 8;
+}
+
+
+
+
+a{
+position: relative;
+top: -0.75em;
+font-size: 10pt;
+padding:0px 9px;
+
+text-decoration: none;
+color:94c950;  text-indent: 2em;
+margin: 1 auto 2 auto;
+}
+
+div#portfolio{
+
+/*    text-align: center; */
+     
+/* 
+1)PARA INTENTAR COLOCAR LA IMAGEN
+EN EL CENTRO. RESULTADO: INCORRECTO
+   
+        margin: 0 auto 0 auto;
+
+2)PARA INTENTAR CAMBIAR EL TAMAÑO DE
+    LA IMAGEN: INCORRECTO
+	
+      	max-width: 474.22px;
+	max-height: 287.82px;
+                                */
+}
+
+
+
+#area_de_trabajo{
+/* background-color: #fff; */
+width: 800px;
+margin: 0 auto 0 auto;
+}
+
+ul#menu {
+  float: right;
+  list-style-type: none;
+/* background-color: #fff; */
+}
+
+
+ul#menu li{
+
+margin: auto auto auto 4px; 
+display:inline;
+/*border: 1px*/
+/* background-color: #fff; */
+/*
+   CAMBIA EL COLOR DEL FONDO
+   
+   <!-- background-color: #9ACD32; --> */
+}
+#portfolio {
+  position: absolute;
+}
+
+/*#portfolio li{
+
+ list-style-type: none;
+ position: relative;
+ left: 15.5em;
+ z-index:6;
+top: 5em;
+
+}
+*/
+#portfolio img{
+position: absolute;
+}
+
+#imagen_centro{
+/*border-style:solid;*/
+/*text-align: center;*/
+/*float: center;*/
+/*position: relative;*/
+/*top: auto;*/
+/*left:auto;
+right:auto;
+top: auto;
+bottom: auto;*/
+position: relative;
+left: 10.5em;
+z-index:2;
+width: 474.22px; height: 287.82px;
+/*display:block;*/
+/*margin:0 auto 0 auto;*/
+}
+
+#h4 p{
+line-height: 0.25em;font-size: 8pt;
+}
+#h4{
+letter-spacing: 0.001em;
+position: relative;
+left: 34em;
+top:-18.7em ;
+z-index: 8;
+font-family: courier;
+word-spacing: -0.2em;
+/*text-align:justify;*/
+}
+
+
+#h3 p{
+line-height: 0.25em;font-size: 8pt;
+}
+#h3{
+letter-spacing: 0.001em;
+position: relative;
+left: 19.7em;
+top:-13.8em ;
+z-index: 8;
+font-family: courier;
+word-spacing: -0.2em;
+/*text-align:justify;*/
+}
+
+#h2 p{
+line-height: 0.25em;font-size: 8pt;
+}
+#h2{
+letter-spacing: 0.001em;
+position: relative;
+left: 5em;
+top:-9em ;
+z-index: 8;
+font-family: courier;
+word-spacing: -0.2em;
+/*text-align:justify;*/
+}
+#h1 p{
+line-height: 0.25em;font-size: 24pt;
+}
+#h1{
+letter-spacing: -0.05em;
+position: relative;
+left: 5em;
+top:-11em ;
+z-index: 7;
+color: b9b9b9;
+
+}
+
+
+
+.Texto1{
+color:2c2c2c;
+}
+.Texto2{
+color:2c2c2c;
+}
+.Texto3{
+color:2c2c2c;
+}
+.Texto4{
+color:2c2c2c;
+}
+.Texto5{
+color:8eb353;
+}
+
+
+
+
+
+#imagen_izquierda{
+
+
+position: relative;
+left: 29em;
+top: 5.4em;
+width: 304.2px; height: 190.32px;
+z-index: 1;
+
+}
+#follow_me{
+
+position: relative;
+z-index:1;
+left: 17.62em;
+top: -2.52em;
+width: 63.5px; height: 32.5px;
+
+}
+
+#cartel_blanco{
+/*border-style:solid;*/
+position: relative;
+z-index:2;
+left: 2em;
+top: 15.22em;
+width: 746.46px; height: 382.2px;
+
+}
+#banda_amarilla{
+/*border-style:solid;*/
+position: relative;
+z-index:5;
+left: 29.44em;
+top: 0.2em;
+width: 112.42px; height: 93.17px;
+
+}
+#featured{
+position: relative;
+z-index:6;
+left: 31.44em;
+top: 0.4em;
+width: 69.3px; height: 60.83px;
+
+}
+#difuminacion_featured{
+/*border-style:solid;*/
+position: relative;
+z-index:4;
+left: 29.44em;
+top: 0.4em;
+width: 112.42px; height: 93.17px;
+
+}
+
+#pagina_web_exposicion{
+/*border-style:solid;*/
+position: relative;
+z-index:3;
+left: 15.283em ;
+top: 1.7em;
+width: 319.3px; height: 193.27px;
+
+}
+#difuminacion_cartel{
+/*border-style:solid;*/
+position: relative;
+z-index:3;
+left: 2em;
+top: -9.22em;
+width: 746.46px; height: 47.74px;
+
+}
+#logo_twitter{
+
+position: relative;
+z-index:7;
+left: 15.7em;
+top: -1.2em;
+width: 37.5px; height: 37.5px;
+
+}
+
+#imagen_derecha{
+
+position: relative;
+	  z-index: 1;
+left: 3em;
+top: 5.4em;
+width: 304.2px; height: 190.32px;
+
+}
+
+#circulo_boton_izquierda{
+position: relative;
+left: 2.8em;
+top: 6.4em;
+width: 27.3px; height: 27.3px;
+       }
+
+#circulo_boton_derecha{
+position: relative;
+left: 46.8em;
+top: 6.4em;
+width: 27.3px; height: 27.3px;
+}
+
+#flecha_boton_izquierda{
+position: relative;
+left: 3.25em;
+top: 6.75em;
+width: 10.14px; height: 16.38px;
+
+}
+
+#flecha_boton_derecha{
+position: relative;
+left: 47.35em;
+top: 6.75em;
+width: 10.14px; height: 16.38px;
+
+}
+
+#fondo_ordenadores_efecto_rayos{
+/*position: relative;
+left: 47.35em;
+top: 6.75em;*/
+    z-index: 2
+position: absolute;
+width: 810.42px; height: 269.88px;
+
+}
+
+#fondo_ordenadores_efecto_luz{
+/*position: relative;
+left: 47.35em;
+top: 6.75em;*/
+    z-index:1
+position: absolute;
+width: 810.42px; height: 269.88px;
+
+}
+
+
+#fondo_cartel{
+position: relative;
+left: 2em;
+top: 15.22em;
+width: 746.46px; height: 382.2px;
+z-index:1
+
+}
+
+
+#contact_me{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
