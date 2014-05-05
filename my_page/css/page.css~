@@ -1,6 +1,6 @@
 
 #lienzo{
-background-image: url("../images/fondo_gimp.jpg");
+background-image: url("images/fondo_gimp.jpg");
 width: 1350px; height: 977px;
 }
 
@@ -10,12 +10,10 @@ margin: 0 auto 0 auto;
 }
 
 #logo{
-position: absolute;
-top: 2.6em;
-/*position: relative;
+position: relative;
 left: -4em;
 top: 2.15em;
-width: 199px; height: 29px;*/
+width: 199px; height: 29px;
 }
 ul#menu {
   float: right;
@@ -57,16 +55,16 @@ width: 937px; height: 6px;
 #imagen_centro{
 position: relative;
 top:20em;
-left:1.5em;
-top: 4.4em;
+left:6.2em;
+top: 5em;
 z-index:8;
-width: 749px; height: 432px;
+width: 608px; height: 369px;
 }
 
 #imagen_derecha{
 position: relative;
 left: 29em;
-top: 13.5em;
+top: 11.5em;
 width: 392px; height: 244px;
 z-index: 6;
 }
@@ -75,7 +73,7 @@ z-index: 6;
 position: relative;
 z-index:6;
 left: -3.5em;
-top: 13.5em;
+top: 11.5em;
 width: 392px; height: 244px;
 }
 
@@ -83,7 +81,7 @@ width: 392px; height: 244px;
 position: relative;
 z-index:9;
 left: 12.7em;
-top: 5.2em;
+top: 3.2em;
 width: 50px; height: 50px;
 }
 
@@ -99,52 +97,6 @@ z-index:1;
 float: center;
 position-relative: 600px 40px;
 }
-
-
-
-#circulo_boton_izquierda{
-position: relative;
-left: -3.8em;
-top: 14.4em;
-       }
-
-#circulo_boton_derecha{
-position: relative;
-left:52.2em;
-top: 14.4em;
-  /*   z-index: 45;*/
-}
-
-#flecha_boton_izquierda{
-position: relative;
-left: -3.2em;
-top: 14.9em;
-
-
-}
-
-#flecha_boton_derecha{
-position: relative;
-left: 52.9em;
-top: 14.9em;
-     z-index: 45;
-
-}
-
-#cartel_blanco{
-/*border-style:solid;*/
-position: absolute;
-z-index:2;
-left: 13em;
-top: 27.22em;
-width: 957px; height: 506px;
-
-}
-
-
-
-
-
 
 
 
@@ -289,7 +241,15 @@ color:8eb353;
 
 
 
+#cartel_blanco{
+/*border-style:solid;*/
+position: relative;
+z-index:2;
+left: 2em;
+top: 15.22em;
+width: 957px; height: 506px;
 
+}
 #banda_amarilla{
 /*border-style:solid;*/
 position: relative;
@@ -337,6 +297,35 @@ width: 921px; height: 62px;
 
 
 
+#circulo_boton_izquierda{
+position: relative;
+left: 2.8em;
+top: 6.4em;
+width: 27.3px; height: 27.3px;
+       }
+
+#circulo_boton_derecha{
+position: relative;
+left: 46.8em;
+top: 6.4em;
+width: 27.3px; height: 27.3px;
+}
+
+#flecha_boton_izquierda{
+position: relative;
+left: 3.25em;
+top: 6.75em;
+width: 10.14px; height: 16.38px;
+
+}
+
+#flecha_boton_derecha{
+position: relative;
+left: 47.35em;
+top: 6.75em;
+width: 10.14px; height: 16.38px;
+
+}
 
 #fondo_ordenadores_efecto_rayos{
 /*position: relative;
